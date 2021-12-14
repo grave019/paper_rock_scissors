@@ -26,3 +26,11 @@ var startGame = function() {
   if (userChoice === computerChoice) {
     ties++;
     window.alert("It's a tie!");
+// Check every win condition for the player
+} else if (
+    (userChoice === "R" && computerChoice === "S") || 
+    (userChoice === "P" && computerChoice === "R") || 
+    (userChoice === "S" && computerChoice === "P")
+  ) {
+    wins++;
+    window.alert("You win!");
