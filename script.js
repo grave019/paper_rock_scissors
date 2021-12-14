@@ -48,3 +48,9 @@ var startGame = function() {
 
   // Ask user to play again
   var playAgain = window.confirm("Play again?");
+
+  // If user pressed OK, run the function again
+  if (playAgain) {
+    startGame();
+  }
+};
