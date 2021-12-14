@@ -19,3 +19,5 @@ var startGame = function() {
   // Get random index from array of options using Math.random
   var index = Math.floor(Math.random() * options.length);
   var computerChoice = options[index];
+
+  window.alert("The computer chose " + computerChoice);
