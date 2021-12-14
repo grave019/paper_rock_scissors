@@ -40,3 +40,8 @@ var startGame = function() {
     losses++;
     window.alert("You lost!");
   }
+
+   // Print stats with line breaks
+   window.alert(
+    "Stats:\nWins: " + wins + "\nLosses: " + losses + "\nTies: " + ties
+  );
