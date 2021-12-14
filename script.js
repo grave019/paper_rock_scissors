@@ -21,3 +21,8 @@ var startGame = function() {
   var computerChoice = options[index];
 
   window.alert("The computer chose " + computerChoice);
+
+  // If choices are the same, it's a tie
+  if (userChoice === computerChoice) {
+    ties++;
+    window.alert("It's a tie!");
