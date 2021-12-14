@@ -45,3 +45,6 @@ var startGame = function() {
    window.alert(
     "Stats:\nWins: " + wins + "\nLosses: " + losses + "\nTies: " + ties
   );
+
+  // Ask user to play again
+  var playAgain = window.confirm("Play again?");
