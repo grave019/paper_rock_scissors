@@ -15,3 +15,7 @@ var startGame = function() {
   }
   // Convert to uppercase to make comparisons easier
   userChoice = userChoice.toUpperCase();
+
+  // Get random index from array of options using Math.random
+  var index = Math.floor(Math.random() * options.length);
+  var computerChoice = options[index];
