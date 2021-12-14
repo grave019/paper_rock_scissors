@@ -54,3 +54,6 @@ var startGame = function() {
     startGame();
   }
 };
+
+// Run the game for the first time
+playGame();
