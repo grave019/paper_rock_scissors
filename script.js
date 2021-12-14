@@ -34,3 +34,9 @@ var startGame = function() {
   ) {
     wins++;
     window.alert("You win!");
+
+    // If above conditions failed, assume player lost
+  } else {
+    losses++;
+    window.alert("You lost!");
+  }
