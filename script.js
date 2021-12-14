@@ -13,3 +13,5 @@ var startGame = function() {
   if (!userChoice) {
     return;
   }
+  // Convert to uppercase to make comparisons easier
+  userChoice = userChoice.toUpperCase();
